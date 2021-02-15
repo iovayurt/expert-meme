@@ -1,0 +1,12 @@
+def two_d_translate(arr)
+  new_arr = []
+
+  arr.each do |subArray|
+    ele = subArray[0]
+    num = subArray[1]
+
+    num.times { new_arr << ele }
+  end
+
+  return new_arr
+end
